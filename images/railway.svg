@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-label="Железнодорожный тупик">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#181f28"/>
+      <stop offset="1" stop-color="#2a3340"/>
+    </linearGradient>
+    <linearGradient id="car" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a5766"/>
+      <stop offset="1" stop-color="#39434f"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f7c36a" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#f7c36a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="640" fill="url(#sky2)"/>
+  <circle cx="870" cy="260" r="120" fill="url(#light)"/>
+
+  <path d="M0 380 L1200 290 L1200 640 L0 640 Z" fill="#202a35"/>
+  <path d="M0 470 L1200 400 L1200 640 L0 640 Z" fill="#1a222c"/>
+
+  <g stroke="#c8a165" fill="none" stroke-width="3">
+    <path d="M120 640 L300 430 M1080 640 L900 430 M240 640 L384 452 M960 640 L816 452 M340 640 L452 474 M860 640 L748 474"/>
+    <path d="M300 430 L900 430 M384 452 L816 452 M452 474 L748 474"/>
+  </g>
+  <g stroke="#3a4654" stroke-width="10" stroke-linecap="round">
+    <path d="M60 640 L262 424 M1140 640 L938 424 M200 640 L366 458 M1000 640 L834 458"/>
+  </g>
+
+  <g transform="translate(120,0)">
+    <rect x="0" y="352" width="360" height="68" rx="6" fill="url(#car)"/>
+    <path d="M0 352 L360 352 L350 322 L10 322 Z" fill="#4b5a6b"/>
+    <g fill="#2b3541">
+      <circle cx="46" cy="426" r="22"/>
+      <circle cx="150" cy="426" r="22"/>
+      <circle cx="238" cy="426" r="22"/>
+      <circle cx="322" cy="426" r="22"/>
+    </g>
+    <g stroke="#67788b" stroke-width="2">
+      <line x1="20" y1="368" x2="340" y2="368"/>
+      <line x1="20" y1="378" x2="140" y2="378"/>
+      <line x1="160" y1="378" x2="340" y2="378"/>
+    </g>
+    <path d="M14 336 L346 336 L332 306 L62 306 Z" fill="#61707f"/>
+    <ellipse cx="180" cy="252" rx="90" ry="46" fill="#39414d"/>
+  </g>
+
+  <g transform="translate(560,0)">
+    <path d="M120 560 Q 60 480 80 420 L150 380 L260 390 L330 430 L320 560 Z" fill="#2c3743"/>
+    <g fill="#3f4b58">
+      <path d="M90 440 L106 412 L138 418 L130 446 Z"/>
+      <path d="M128 418 L144 390 L176 396 L168 424 Z"/>
+      <path d="M166 396 L182 368 L214 374 L206 402 Z"/>
+      <path d="M204 402 L216 378 L252 382 L244 406 Z"/>
+    </g>
+    <ellipse cx="185" cy="300" rx="98" ry="34" fill="#161e26"/>
+    <path d="M96 292 L274 260 L274 300 L96 312 Z" fill="#39434f"/>
+    <g fill="#101820">
+      <circle cx="138" cy="306" r="15"/>
+      <circle cx="238" cy="290" r="15"/>
+    </g>
+  </g>
+
+  <g transform="translate(60,470)">
+    <path d="M0 150 L30 150 L96 84 L140 84 L190 150 L210 150 L210 168 L0 168 Z" fill="#232c37"/>
+    <path d="M0 132 L64 74" stroke="#f4b25c" stroke-width="6" stroke-linecap="round"/>
+    <path d="M96 84 L140 84 L110 48 L78 48 Z" fill="#3d4854"/>
+    <rect x="210" y="140" width="34" height="28" rx="4" fill="#2c3743"/>
+  </g>
+
+  <circle cx="870" cy="292" r="7" fill="#f7c36a"/>
+  <path d="M30 150 L60 150 M48 130 L78 130 M66 112 L96 112" stroke="#3d4854" stroke-width="4" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-label="Гранитный карьер">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#14202b"/>
+      <stop offset="0.55" stop-color="#1a2734"/>
+      <stop offset="1" stop-color="#26333f"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f7c36a"/>
+      <stop offset="0.55" stop-color="#e8932b"/>
+      <stop offset="1" stop-color="#e8932b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rockA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3d4a58"/>
+      <stop offset="1" stop-color="#2c3743"/>
+    </linearGradient>
+    <linearGradient id="rockB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#485668"/>
+      <stop offset="1" stop-color="#333f4c"/>
+    </linearGradient>
+    <linearGradient id="base" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d2731"/>
+      <stop offset="1" stop-color="#121a21"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="640" fill="url(#sky)"/>
+
+  <circle cx="940" cy="330" r="150" fill="url(#sun)" opacity="0.9"/>
+  <circle cx="940" cy="330" r="58" fill="#f6bf63" opacity="0.35"/>
+
+  <path d="M0 300 L180 210 L340 268 L520 196 L700 258 L860 212 L1040 272 L1200 224 L1200 640 L0 640 Z" fill="#232e3a"/>
+  <path d="M0 356 L160 280 L320 330 L470 258 L640 318 L810 268 L980 322 L1200 286 L1200 640 L0 640 Z" fill="url(#rockA)"/>
+
+  <path d="M320 372 L430 332 L520 348 L640 322 L760 360 L880 332 L960 354 L1040 340 L1140 366 L1200 350 L1200 640 L320 640 Z" fill="url(#rockB)"/>
+
+  <path d="M0 470 L140 430 L300 462 L460 420 L620 452 L800 416 L980 452 L1140 428 L1200 450 L1200 640 L0 640 Z" fill="url(#base)"/>
+
+  <ellipse cx="470" cy="508" rx="120" ry="34" fill="#161f27"/>
+  <path d="M350 500 L470 468 L590 500 L470 540 Z" fill="#2a3541"/>
+  <path d="M372 496 L568 496 M360 504 L580 504 M352 512 L588 512" stroke="#3e4a58" stroke-width="4" fill="none" opacity="0.7"/>
+
+  <g transform="translate(600,470)">
+    <rect x="0" y="30" width="150" height="52" rx="4" fill="#232c37" stroke="#3a4654" stroke-width="2"/>
+    <rect x="8" y="12" width="70" height="20" rx="3" fill="#1b232c"/>
+    <circle cx="26" cy="92" r="20" fill="#111820" stroke="#2f3a48" stroke-width="3"/>
+    <circle cx="126" cy="92" r="20" fill="#111820" stroke="#2f3a48" stroke-width="3"/>
+    <rect x="30" y="-6" width="128" height="12" rx="4" fill="#2c3743" transform="rotate(-8 30 -6)"/>
+  </g>
+
+  <g transform="translate(180,430)">
+    <circle cx="118" cy="96" r="56" fill="#141c24"/>
+    <path d="M-8 118 L44 118 L44 168 L-8 168 Z" fill="#212b36" stroke="#38434f" stroke-width="2"/>
+    <path d="M44 118 L74 118 L74 168 L44 168 Z" fill="#4a5867"/>
+    <path d="M118 52 L118 96 L150 90 L150 54 Z" fill="#232e39"/>
+    <path d="M150 66 L210 66 L228 88 L210 106 L150 100 Z" fill="#f4b25c"/>
+    <path d="M118 96 L150 88 L156 120 L124 128 Z" fill="#39434f"/>
+    <rect x="48" y="136" width="10" height="30" rx="2" fill="#2c3743"/>
+    <rect x="66" y="126" width="10" height="40" rx="2" fill="#2c3743"/>
+    <rect x="84" y="128" width="10" height="38" rx="2" fill="#2c3743"/>
+  </g>
+
+  <path d="M0 600 L1200 600 L1200 640 L0 640 Z" fill="#0d141a"/>
+</svg>
