@@ -190,6 +190,7 @@ section[id] { scroll-margin-top: 96px; }
 .tbl td.cat { color: var(--accent-2); font-weight: 600; white-space: nowrap; }
 .tbl tr:hover td { background: rgba(232, 147, 43, 0.05); }
 .tbl td.num { text-align: right; white-space: nowrap; color: var(--accent-2); font-weight: 600; }
+.tbl-tech { table-layout: fixed; }
 .unit-note { font-size: 0.85rem; color: var(--muted); margin: -22px 0 26px; }
 
 /* ---------- Equipment chips ---------- */
@@ -320,6 +321,5 @@ section[id] { scroll-margin-top: 96px; }
   .partner { flex-direction: column; }
   .contact-row { flex-wrap: wrap; }
   .contact-row .v { white-space: normal; }
-  .tbl-tech { table-layout: fixed; }
   .tbl-tech td.cat { white-space: normal; }
 }
