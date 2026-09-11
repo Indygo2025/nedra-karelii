@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=36">
+  <link rel="stylesheet" href="css/style.css?v=39">
   <style>.tech-img{height:313px}.tech-img img{max-height:284px}</style>
 </head>
 <body>
@@ -24,6 +24,8 @@
         <li><a href="index.html">Главная</a></li>
         <li><a href="production.html">Продукция</a></li>
         <li><a href="services.html" class="active">Услуги</a></li>
+        <li><a href="experience.html">Опыт и объекты</a></li>
+        <li><a href="articles.html">Статьи</a></li>
         <li><a href="partners.html">Партнёры</a></li>
         <li><a href="index.html#contacts" class="nav-cta">Связаться</a></li>
       </ul>
@@ -48,6 +50,7 @@
       </div>
       <div class="grid grid-3">
         <div class="card" data-reveal>
+          <img class="card-img" src="images/services/avto-dostavka.jpg" alt="Доставка нерудных материалов автотранспортом">
           <span class="icon">
             <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="6" width="13" height="8" rx="1"/><path d="M14 9h4l4 4v2h-8z"/><circle cx="6" cy="18" r="2"/><circle cx="18" cy="18" r="2"/></svg>
           </span>
@@ -55,6 +58,7 @@
           <p>Самосвалы доставляют материал на объект круглосуточно. График подачи согласуем под вашу смену.</p>
         </div>
         <div class="card" data-reveal>
+          <img class="card-img" src="images/services/jd-dostavka.jpg" alt="Железнодорожные поставки нерудных материалов">
           <span class="icon">
             <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-5 9 5-9 5z"/><path d="M3 14l9 5 9-5"/><path d="M3 19l9 5 9-5"/></svg>
           </span>
@@ -62,6 +66,7 @@
           <p>Собственный тупик, погрузка с двух сторон, до 2 составов в сутки. Отправки по России большими партиями.</p>
         </div>
         <div class="card" data-reveal>
+          <img class="card-img" src="images/services/vodniy-dostavka.jpg" alt="Доставка нерудных материалов водным транспортом">
           <span class="icon">
             <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12c2-5 6-7 10-7s8 2 10 7c-2 5-6 7-10 7S4 17 2 12z"/><circle cx="12" cy="12" r="3"/></svg>
           </span>
@@ -132,26 +137,35 @@
       </div>
 
       <div class="grid" style="width:min(1180px,92%);margin:30px auto 0">
-        <div class="card" data-reveal>
+        <div class="card svc-card" data-reveal>
+          <img class="svc-img" src="images/services/proektirovanie.jpg" alt="Проектная документация и инженерные изыскания">
+          <div>
           <span class="icon">
             <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M9 13l2 2 4-4"/></svg>
           </span>
           <h3>Проектная документация</h3>
           <p>Инженерные изыскания, разработка проектной и рабочей документации, согласования с контролирующими органами.</p>
+          </div>
         </div>
-        <div class="card" data-reveal>
+        <div class="card svc-card" data-reveal>
+          <img class="svc-img" src="images/services/genpodryad.jpg" alt="Генподряд и строительно-монтажные работы">
+          <div>
           <span class="icon">
             <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M6 21V9l6-4 6 4v12M10 21v-5h4v5"/></svg>
           </span>
           <h3>Генподряд и СМР</h3>
           <p>Полный цикл строительно-монтажных работ, реконструкция промышленных объектов, ж/д пути и инженерные сети.</p>
+          </div>
         </div>
-        <div class="card" data-reveal>
+        <div class="card svc-card" data-reveal>
+          <img class="svc-img" src="images/services/toplivo.jpg" alt="Топливное обеспечение с доставкой">
+          <div>
           <span class="icon">
             <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 22V6l6-4 6 4v16"/><path d="M15 9h4a2 2 0 0 1 2 2v11"/><path d="M3 22h18"/></svg>
           </span>
           <h3>Топливное обеспечение</h3>
           <p>АИ-92, АИ-95 и дизельное топливо с доставкой, 24/7. Поставка от 1 000 до 33 000 литров.</p>
+          </div>
         </div>
       </div>
       <p data-reveal style="width:min(1180px,92%);margin:26px auto 0;color:var(--muted);border:1px solid var(--line);border-radius:14px;padding:18px 20px;background:var(--coal)">
@@ -183,6 +197,8 @@
             <a href="index.html">Главная</a>
             <a href="production.html">Продукция</a>
             <a href="services.html">Услуги</a>
+            <a href="experience.html">Опыт и объекты</a>
+            <a href="articles.html">Статьи</a>
             <a href="partners.html">Партнёры</a>
           </div>
           <div>
