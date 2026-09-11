@@ -208,8 +208,8 @@ section[id] { scroll-margin-top: 96px; }
 .contact-card h3::before { content: ""; width: 8px; height: 22px; border-radius: 4px; background: linear-gradient(180deg, var(--accent), var(--amber-dark)); }
 .contact-row { display: flex; justify-content: space-between; gap: 14px; padding: 9px 0; border-bottom: 1px dashed var(--line); font-size: 0.95rem; }
 .contact-row:last-child { border-bottom: 0; }
-.contact-row .k { color: var(--muted); flex: none; }
-.contact-row .v { text-align: right; color: var(--text); font-weight: 500; min-width: 0; overflow-wrap: anywhere; }
+.contact-row .k { color: var(--muted); min-width: 0; }
+.contact-row .v { text-align: right; color: var(--text); font-weight: 500; min-width: 0; white-space: nowrap; }
 .contact-row a:hover { color: var(--accent-2); }
 
 /* ---------- Footer ---------- */
