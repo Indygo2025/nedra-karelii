@@ -210,9 +210,9 @@ section[id] { scroll-margin-top: 96px; }
 }
 .tech-img img { max-width: 92%; max-height: 150px; object-fit: contain; }
 .tech-card h3 { font-size: 1.08rem; margin-bottom: 8px; }
-.tech-list { color: var(--muted); font-size: 0.9rem; line-height: 1.55; }
+.tech-list { color: var(--muted); font-size: 0.9rem; line-height: 1.55; flex: 1 1 auto; }
 .tech-count {
-  margin-top: 14px; padding: 5px 13px; border-radius: 999px;
+  margin-top: auto; padding: 5px 13px; border-radius: 999px;
   background: rgba(232, 147, 43, 0.12); border: 1px solid rgba(232, 147, 43, 0.3);
   color: var(--accent-2); font-weight: 600; font-size: 0.85rem;
 }
