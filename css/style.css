@@ -302,10 +302,16 @@ section[id] { scroll-margin-top: 96px; }
   .carousel .c-slides { aspect-ratio: 1.35 / 1; min-height: 300px; }
 }
 
+@media (max-width: 1050px) {
+  .nav { display: none; }
+  .burger { display: block; z-index: 60; }
+}
+
 @media (max-width: 900px) {
   .logo-img { height: 34px; }
   .logo-name { font-size: 1.9rem; }
   .nav {
+    display: flex;
     position: fixed; top: 56px; right: 0; left: auto; bottom: auto; z-index: 55;
     width: auto; max-width: 84vw; height: auto; max-height: calc(100vh - 56px); overflow-y: auto;
     margin: 0;
@@ -323,7 +329,6 @@ section[id] { scroll-margin-top: 96px; }
     align-self: flex-end; display: inline-block; text-align: center; line-height: 1.5; color: #1a1410;
     background: linear-gradient(135deg, var(--accent), var(--amber-dark));
   }
-  .burger { display: block; z-index: 60; }
 }
 
 @media (max-width: 720px) {
