@@ -330,7 +330,7 @@ section[id] { scroll-margin-top: 96px; }
   .header { backdrop-filter: none; background: rgba(14, 17, 20, 0.98); }
   .header-inner { height: 72px; align-items: center; }
   .logo-img { height: 40px; }
-  .logo-name { font-size: 1.8rem; }
+  .logo-name { font-size: 1.4rem; }
   .nav { top: 72px; max-height: calc(100vh - 72px); }
   .grid-3, .grid-2, .stats { grid-template-columns: 1fr; }
   .section { padding: 60px 0; }
@@ -338,4 +338,8 @@ section[id] { scroll-margin-top: 96px; }
   .contact-row { flex-wrap: wrap; }
   .contact-row .v { white-space: normal; }
   .tbl-tech td.cat { white-space: normal; }
+}
+
+@media (max-width: 500px) {
+  .logo-name { font-size: 1.1rem; }
 }
