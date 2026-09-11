@@ -179,7 +179,7 @@ section[id] { scroll-margin-top: 96px; }
 .partner .tags span { font-size: 0.76rem; padding: 5px 11px; border-radius: 999px; background: rgba(255,255,255,0.05); border: 1px solid var(--line); color: var(--text-dim); }
 
 /* ---------- Price tables ---------- */
-.table-wrap { margin-bottom: 34px; }
+.table-wrap { margin-bottom: 34px; overflow-x: auto; }
 .table-wrap h3 { font-size: 1.15rem; margin-bottom: 12px; display: flex; align-items: center; gap: 12px; }
 .table-wrap h3::before { content: ""; width: 8px; height: 22px; border-radius: 4px; background: linear-gradient(180deg, var(--accent), var(--amber-dark)); }
 .tbl { width: 100%; border-collapse: collapse; background: rgba(36,43,51,0.85); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
@@ -284,8 +284,8 @@ section[id] { scroll-margin-top: 96px; }
 }
 
 @media (max-width: 900px) {
-  .logo-img { height: 36px; }
-  .logo-name { font-size: 1.05rem; }
+  .logo-img { height: 34px; }
+  .logo-name { font-size: 0.95rem; }
   .nav {
     position: fixed; top: 56px; right: 0; left: auto; bottom: auto; z-index: 55;
     width: auto; max-width: 84vw; height: auto; max-height: calc(100vh - 56px); overflow-y: auto;
@@ -310,10 +310,12 @@ section[id] { scroll-margin-top: 96px; }
 @media (max-width: 720px) {
   .header { backdrop-filter: none; background: rgba(14, 17, 20, 0.98); }
   .header-inner { height: 72px; align-items: center; }
-  .logo-img { height: 48px; }
-  .logo-name { font-size: 1.1rem; }
+  .logo-img { height: 40px; }
+  .logo-name { font-size: 0.9rem; }
   .nav { top: 72px; max-height: calc(100vh - 72px); }
   .grid-3, .grid-2, .stats { grid-template-columns: 1fr; }
   .section { padding: 60px 0; }
   .partner { flex-direction: column; }
+  .contact-row { flex-wrap: wrap; }
+  .contact-row .v { white-space: normal; }
 }
