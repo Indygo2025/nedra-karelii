@@ -320,4 +320,6 @@ section[id] { scroll-margin-top: 96px; }
   .partner { flex-direction: column; }
   .contact-row { flex-wrap: wrap; }
   .contact-row .v { white-space: normal; }
+  .tbl-tech { table-layout: fixed; }
+  .tbl-tech td.cat { white-space: normal; }
 }
