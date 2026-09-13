@@ -345,6 +345,28 @@ section[id] { scroll-margin-top: 96px; }
 .article-body .hl { border-left: 3px solid var(--accent); padding: 4px 0 4px 16px; color: var(--text); font-weight: 600; }
 .article-actions { margin-top: 42px; display: flex; flex-wrap: wrap; gap: 12px; }
 
+/* ---------- Временный рекламный блок (удалить вместе с блоком в index.html) ---------- */
+.adstrip {
+  background: linear-gradient(135deg, var(--accent), var(--amber-dark));
+  color: #1a1410;
+}
+.adstrip-inner {
+  max-width: 1180px; width: 92%; margin: 0 auto; padding: 10px 0;
+  display: flex; align-items: center; justify-content: center; gap: 14px; flex-wrap: wrap;
+  font-size: 0.97rem; font-weight: 600;
+}
+.adstrip p { margin: 0; }
+.adstrip a {
+  display: inline-flex; align-items: center; gap: 9px;
+  background: #1a1410; color: #ffffff; text-decoration: none;
+  padding: 8px 18px; border-radius: 999px; font-weight: 800; font-size: 1.06rem;
+  transition: transform 0.2s ease;
+}
+.adstrip a:hover { transform: scale(1.04); }
+@media (max-width: 720px) {
+  .adstrip-inner { flex-direction: column; gap: 8px; text-align: center; padding: 12px 0; }
+}
+
 /* ---------- Responsive ---------- */
 @media (max-width: 1150px) {
   .logo-img { height: 38px; }
