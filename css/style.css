@@ -358,15 +358,15 @@ section[id] { scroll-margin-top: 96px; }
 }
 .adstrip:hover .adstrip-track { animation-play-state: paused; }
 .adstrip-item {
-  display: inline-flex; align-items: center; gap: 14px;
-  padding: 10px 24px; white-space: nowrap;
-  font-size: 0.97rem; font-weight: 600;
+  display: inline-flex; align-items: center; gap: 24px;
+  padding: 16px 32px; white-space: nowrap;
+  font-size: 1.94rem; font-weight: 600;
 }
 .adstrip-item p { margin: 0; }
 .adstrip-item a {
-  display: inline-flex; align-items: center; gap: 9px;
+  display: inline-flex; align-items: center; gap: 12px;
   background: #1a1410; color: #ffffff; text-decoration: none;
-  padding: 8px 18px; border-radius: 999px; font-weight: 800; font-size: 1.06rem;
+  padding: 12px 28px; border-radius: 999px; font-weight: 800; font-size: 2.12rem;
 }
 .adstrip-item a:hover { background: #000; }
 @keyframes adstrip-marquee {
